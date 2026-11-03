@@ -1,0 +1,81 @@
+/* Home hero: reference-style white card. Uses the existing card and text. */
+body.home #wrapper #main #content .luxury-hero-card {
+  box-sizing: border-box !important;
+  padding: 22px 24px 22px 36px !important;
+  border: 1px solid rgba(85, 76, 69, .15) !important;
+  border-radius: 2px !important;
+  background: #fffdf9 !important;
+  box-shadow: 0 14px 38px rgba(62, 43, 33, .14) !important;
+}
+body.home #wrapper #main #content .luxury-hero-card::before {
+  content: "" !important;
+  position: absolute;
+  top: 22px;
+  bottom: 22px;
+  left: 18px;
+  width: 1px;
+  background: #b39b86;
+  pointer-events: none;
+}
+body.home #wrapper #main #content .luxury-hero-card strong {
+  display: block !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(19px, 1.45vw, 24px) !important;
+  font-weight: 400 !important;
+  letter-spacing: -.02em !important;
+  line-height: 1.2 !important;
+  color: #292b2a !important;
+}
+body.home #wrapper #main #content .luxury-hero-card span {
+  display: block !important;
+  margin-top: 8px !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  color: #554c45 !important;
+}
+
+/* On desktop, anchor the card to the photo's lower-right corner. */
+@media (min-width: 1280px) {
+  body.home #wrapper #main #content .luxury-hero-visual {
+    display: grid !important;
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    align-self: stretch !important;
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    grid-template-rows: auto !important;
+    align-items: stretch !important;
+    justify-content: stretch !important;
+  }
+  body.home #wrapper #main #content .luxury-hero-photo {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+  }
+  body.home #wrapper #main #content .luxury-hero-card {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    align-self: end !important;
+    justify-self: end !important;
+    position: relative !important;
+    inset: auto !important;
+    width: clamp(340px, 25vw, 380px) !important;
+    margin: 0 clamp(24px, 3vw, 60px) clamp(20px, 2.5vw, 40px) 0 !important;
+    z-index: 3 !important;
+  }
+  /* Keep the card attached to the photo when Read More is expanded. */
+  body.home #wrapper #main #content .luxury-hero:has(.hero-lead .more-text[style*="display: block"]) .luxury-hero-visual {
+    align-self: start !important;
+  }
+}
+
+/* Smaller screens keep the card beneath the photo, without covering it. */
+@media (max-width: 1279px) {
+  body.home #wrapper #main #content .luxury-hero-card {
+    position: relative !important;
+  }
+}
+/* END Home hero card correction */
