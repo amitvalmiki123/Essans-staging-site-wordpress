@@ -1,38 +1,25 @@
-/* Homepage hero: cover the banner without fading the people.
-   Uses the current WordPress image and the existing combined JS snippet. */
-body.home.essen-hero-ready #wrapper #main .luxury-hero-photo {
-  background-size: cover !important;
-  background-position: center center !important;
-  -webkit-mask-image: none !important;
-  mask-image: none !important;
+/* Homepage hero: stable fade and side-by-side desktop layout.
+   Uses the existing WordPress background image; no image is embedded here. */
+body.home #wrapper #main #content .luxury-hero {
+  position: relative !important;
+  display: block !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: #faf7f2 !important;
 }
-body.home.essen-hero-ready #wrapper #main .luxury-hero-photo::before,
-body.home.essen-hero-ready #wrapper #main .luxury-hero-photo::after {
+body.home #wrapper #main #content .luxury-hero::before {
   content: none !important;
 }
-
-/* On narrower screens, preserve the whole photo instead of cropping people. */
-@media (min-width: 1501px) and (max-width: 1699px) {
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-grid {
-    grid-template-columns: minmax(0, 1fr) !important;
-    align-items: stretch !important;
-  }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-copy {
-    max-width: 760px !important;
-    margin: 0 auto !important;
-    padding: 48px clamp(20px, 5vw, 50px) 32px !important;
-  }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-copy h1 {
-    font-size: clamp(32px, 7vw, 50px) !important;
-    line-height: 1.08 !important;
-  }
+body.home #wrapper #main #content .luxury-hero-frame {
+  display: none !important;
 }
 
-/* Wide desktop: the photo fills the height of the banner, without a fade. */
-@media (min-width: 1700px) {
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-grid {
+/* Keep the complete image beneath the copy on phones and smaller tablets. */
+@media (max-width: 1279px) {
+  body.home #wrapper #main #content .luxury-hero-grid {
     display: grid !important;
-    grid-template-columns: minmax(0, 32fr) minmax(0, 68fr) !important;
+    grid-template-columns: minmax(0, 1fr) !important;
     align-items: stretch !important;
     gap: 0 !important;
     width: 100% !important;
@@ -40,55 +27,139 @@ body.home.essen-hero-ready #wrapper #main .luxury-hero-photo::after {
     margin: 0 !important;
     padding: 0 !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-copy {
+  body.home #wrapper #main #content .luxury-hero-copy {
+    position: relative !important;
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: 760px !important;
+    margin: 0 auto !important;
+    padding: 48px clamp(20px, 5vw, 50px) 32px !important;
+  }
+  body.home #wrapper #main #content .luxury-hero-copy h1 {
+    font-size: clamp(32px, 7vw, 50px) !important;
+    line-height: 1.08 !important;
+  }
+  body.home #wrapper #main #content .luxury-hero .hero-actions {
+    flex-wrap: wrap !important;
+    gap: 16px 24px !important;
+  }
+  body.home #wrapper #main #content .luxury-hero-visual {
+    position: relative !important;
+    inset: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    pointer-events: auto !important;
+  }
+  body.home #wrapper #main #content .luxury-hero-photo {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: var(--essen-hero-ratio, 2.172) !important;
+    border-radius: 0 !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    box-shadow: none !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+  }
+  body.home #wrapper #main #content .luxury-hero-photo::before,
+  body.home #wrapper #main #content .luxury-hero-photo::after {
+    content: none !important;
+  }
+  body.home #wrapper #main #content .luxury-hero-card {
+    position: static !important;
+    inset: auto !important;
+    box-sizing: border-box;
+    width: min(330px, calc(100% - 40px)) !important;
+    margin: 16px auto 24px !important;
+  }
+  body.home #wrapper #main #content .luxury-hero .hero-scroll {
+    position: static !important;
+    inset: auto !important;
+    display: flex !important;
+    width: max-content;
+    max-width: 100%;
+    margin: 0 auto !important;
+    padding: 0 0 24px !important;
+    transform: none !important;
+    background: transparent !important;
+  }
+}
+
+/* Desktop: place the photo next to the copy from the very first paint. */
+@media (min-width: 1280px) {
+  body.home #wrapper #main #content .luxury-hero-grid {
+    display: grid !important;
+    grid-template-columns: minmax(0, 26fr) minmax(0, 74fr) !important;
+    align-items: stretch !important;
+    gap: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  body.home #wrapper #main #content .luxury-hero-copy {
     grid-column: 1;
     grid-row: 1;
     position: relative !important;
     z-index: 2;
     box-sizing: border-box;
-    width: calc(100% + 3vw) !important;
+    width: calc(100% + 9vw) !important;
     max-width: none !important;
     margin: 0 !important;
-    padding: 30px clamp(28px, 2.2vw, 48px) 110px !important;
+    padding: 18px clamp(24px, 2.2vw, 48px) 80px !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-copy h1 {
-    margin: 0 0 16px !important;
-    font-size: clamp(43px, 3.15vw, 60px) !important;
-    line-height: 1.05 !important;
+  body.home #wrapper #main #content .luxury-hero-copy .eyebrow {
+    margin: 0 0 4px !important;
+    font-size: 12px !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-copy .hero-lead {
+  body.home #wrapper #main #content .luxury-hero-copy h1 {
+    margin: 0 0 12px !important;
+    font-size: clamp(40px, 3.15vw, 60px) !important;
+    line-height: 1.03 !important;
+  }
+  body.home #wrapper #main #content .luxury-hero-copy .hero-lead {
     max-width: none !important;
     margin-top: 0 !important;
-    font-size: clamp(16px, 1vw, 18px) !important;
-    line-height: 1.55 !important;
+    font-size: 15px !important;
+    line-height: 1.42 !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-copy .hero-lead p {
+  body.home #wrapper #main #content .luxury-hero-copy .hero-lead p {
     margin: 0 0 6px !important;
+    font-size: 15px !important;
+    line-height: 1.42 !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero .hero-actions {
+  body.home #wrapper #main #content .luxury-hero .hero-actions {
+    flex-wrap: wrap !important;
     gap: 12px !important;
-    margin-top: 18px !important;
+    margin-top: 8px !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero .hero-actions .button {
-    min-height: 48px !important;
+  body.home #wrapper #main #content .luxury-hero .hero-actions .button {
+    min-height: 44px !important;
     margin: 0 !important;
-    padding: 0 16px !important;
+    padding: 0 12px !important;
     font-size: 10px !important;
-    letter-spacing: .08em !important;
+    letter-spacing: .06em !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero .hero-actions .text-link {
+  body.home #wrapper #main #content .luxury-hero .hero-actions .text-link {
     font-size: 10px !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero .hero-credentials {
-    gap: 8px 16px !important;
-    margin-top: 24px !important;
-    padding-top: 16px !important;
+  body.home #wrapper #main #content .luxury-hero .hero-credentials {
+    gap: 6px 12px !important;
+    margin-top: 10px !important;
+    padding-top: 8px !important;
   }
-  /* Keep the original card visible in the copy column, not over either person. */
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-visual {
+  body.home #wrapper #main #content .luxury-hero-visual {
     display: contents !important;
+    pointer-events: auto !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-photo {
+  body.home #wrapper #main #content .luxury-hero-photo {
     grid-column: 2;
     grid-row: 1;
     align-self: stretch;
@@ -96,13 +167,29 @@ body.home.essen-hero-ready #wrapper #main .luxury-hero-photo::after {
     inset: auto !important;
     width: 100% !important;
     height: 100% !important;
-    aspect-ratio: var(--essen-hero-ratio) !important;
+    aspect-ratio: var(--essen-hero-ratio, 2.172) !important;
+    border-radius: 0 !important;
+    background-size: cover !important;
     background-position: 10% center !important;
     background-repeat: no-repeat !important;
-    border-radius: 0 !important;
     box-shadow: none !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-card {
+  body.home #wrapper #main #content .luxury-hero-photo::before {
+    content: none !important;
+  }
+  body.home #wrapper #main #content .luxury-hero-photo::after {
+    content: "" !important;
+    position: absolute;
+    inset: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: linear-gradient(90deg, #faf7f2 0%, #faf7f2 5%, rgba(250, 247, 242, .88) 9%, rgba(250, 247, 242, 0) 15%) !important;
+    pointer-events: none;
+  }
+  /* The existing card stays in the copy area, clear of the people. */
+  body.home #wrapper #main #content .luxury-hero-card {
     grid-column: 1;
     grid-row: 1;
     align-self: end;
@@ -110,23 +197,23 @@ body.home.essen-hero-ready #wrapper #main .luxury-hero-photo::after {
     position: static !important;
     inset: auto !important;
     box-sizing: border-box;
-    width: min(300px, calc(100% - 56px));
-    margin: 0 0 32px clamp(28px, 2.2vw, 48px) !important;
-    padding: 10px 14px !important;
+    width: min(300px, calc(100% - 48px)) !important;
+    margin: 0 0 4px clamp(24px, 2.2vw, 48px) !important;
+    padding: 6px 12px !important;
     z-index: 3;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-card strong {
+  body.home #wrapper #main #content .luxury-hero-card strong {
     font-size: 16px !important;
     line-height: 1.2 !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero-card span {
+  body.home #wrapper #main #content .luxury-hero-card span {
     margin-top: 4px !important;
-    font-size: 10px !important;
-    line-height: 1.4 !important;
+    font-size: 12px !important;
+    line-height: 1.3 !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero .hero-scroll {
+  body.home #wrapper #main #content .luxury-hero .hero-scroll {
     position: absolute !important;
-    inset: auto auto 8px clamp(28px, 2.2vw, 48px) !important;
+    inset: auto auto 8px calc(35% - 110px) !important;
     display: flex !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -135,37 +222,24 @@ body.home.essen-hero-ready #wrapper #main .luxury-hero-photo::after {
     z-index: 3;
   }
 
-  /* When Read More expands the text, use a full-width photo to avoid a crop. */
-  body.home.essen-hero-ready #wrapper #main .luxury-hero:has(.hero-lead .more-text[style*="display: block"]) .luxury-hero-grid {
-    grid-template-columns: minmax(0, 1fr) !important;
-  }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero:has(.hero-lead .more-text[style*="display: block"]) .luxury-hero-copy {
-    width: 100% !important;
-    max-width: 760px !important;
-    margin: 0 auto !important;
-    padding: 48px clamp(20px, 5vw, 50px) 32px !important;
-  }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero:has(.hero-lead .more-text[style*="display: block"]) .luxury-hero-visual {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero:has(.hero-lead .more-text[style*="display: block"]) .luxury-hero-photo {
+  /* On expansion, keep the whole photo alongside the longer copy. */
+  body.home #wrapper #main #content .luxury-hero:has(.hero-lead .more-text[style*="display: block"]) .luxury-hero-photo {
+    align-self: start;
     height: auto !important;
     background-position: center center !important;
   }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero:has(.hero-lead .more-text[style*="display: block"]) .luxury-hero-card {
-    width: min(330px, calc(100% - 40px));
-    margin: 16px auto 24px !important;
-  }
-  body.home.essen-hero-ready #wrapper #main .luxury-hero:has(.hero-lead .more-text[style*="display: block"]) .hero-scroll {
-    position: static !important;
-    inset: auto !important;
-    width: max-content;
-    max-width: 100%;
-    margin: 0 auto !important;
-    padding: 0 0 24px !important;
-    transform: none !important;
+  body.home #wrapper #main #content .luxury-hero:has(.hero-lead .more-text[style*="display: block"]) .luxury-hero-photo::before {
+    content: "" !important;
+    position: absolute;
+    inset: auto 0 0 !important;
+    height: 24px;
+    background: linear-gradient(0deg, #faf7f2, rgba(250, 247, 242, 0)) !important;
+    filter: none !important;
+    opacity: 1 !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+    pointer-events: none;
+    z-index: 1;
   }
 }
-/* END Homepage hero cover correction */
+/* END Homepage hero stable fade correction */
