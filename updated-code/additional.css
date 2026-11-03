@@ -1,0 +1,1637 @@
+body #row-145103546 .row {
+	display: flex;
+	flex-flow: row !important;
+	width: 100%;
+}
+.treatments-page-hero-grid > div:last-child .page-intro .read-more {
+	padding: 0 1.4rem !important;
+}
+
+/* Testimonials on Home and the treatment pages */
+
+body:is(.home, .parent-pageid-576) #main section.section:has(
+  pre.ti-widget > template[id="trustindex-google-widget-html"],
+  [data-template-id="trustindex-google-widget-html"],
+  .ti-widget.ti-goog
+),
+body:is(.home, .parent-pageid-576) #main section.section:has(
+  pre.ti-widget > template[id="trustindex-google-widget-html"],
+  [data-template-id="trustindex-google-widget-html"],
+  .ti-widget.ti-goog
+) > .section-bg,
+body:is(.home, .parent-pageid-576) #main section.section:has(
+  pre.ti-widget > template[id="trustindex-google-widget-html"],
+  [data-template-id="trustindex-google-widget-html"],
+  .ti-widget.ti-goog
+) > .section-bg > .section-bg-overlay {
+  background-color: #e8ddd3 !important;
+}
+/* END Point 10 */
+
+body #section_731027209 {
+	background-color: #7D9A8B !important;
+}
+body .flex-center li div {
+	color: #fff !important;
+	text-transform: capitalize !important;
+	font-weight: normal !important;
+}
+.flex-center li div {
+	color: #fff !important;
+}
+.fqu-hero{background: linear-gradient(112deg,#fffdf9 0% 48%,#f2ebe3 100%);}
+.what-ul{margin-top:1rem}
+.page.page-id-14 .section-bg{
+	background-position: 101% 19% !important
+}
+.new-number-contcat {
+  display: none;
+}
+body .header-top, .button.button-booking:hover {
+    background-color: #7D9A8B;
+}
+.button.button-booking:hover {
+	color: #fff !important;
+	box-shadow: none;
+}
+.page-id-203 .page-hero {
+	background: #FFFDF9;
+}
+a.icon-circle:hover, a.remove:hover, a:hover, .button.button-booking:hover {
+	color: #7D9A8B;
+}
+.lightbox-content, .form-wrapper {
+    background-color: #EBE9E7 !important;
+}
+.gift-card-content-editor.step-content.clearfix {
+    background: #EBE9E7;
+    padding: 20px 20px;
+}
+.gift-card-content-editor.step-content h5 {
+	margin-top: 0;
+}
+.nav.header-nav.header-bottom-nav li a {color:#4A433D;}
+.round-corners-all .col-inner {display:flex; height:100%; flex-direction:column;}
+.round-corners-all .row.align-center {flex: 1 0 auto;}
+.round-corners-all .alt-font {flex: 0 1 auto;}
+.round-corners-all h2, .round-corners-all p{flex: 1 auto;}
+.luxury-hero-copy .button.button-booking { border-radius:0 !important;border:0;text-transform:uppercase;}
+.single-product {
+	overflow-x: clip !important;
+}
+.essen-hero__lead {max-width:600px !important;}
+.page-id-1422 .nf-form-content textarea.ninja-forms-field, 
+.page-id-1783 .nf-form-content textarea.ninja-forms-field, 
+.page-id-1784 .nf-form-content textarea.ninja-forms-field,
+.page-id-1789 .nf-form-content textarea.ninja-forms-field, 
+.page-id-1788 .nf-form-content textarea.ninja-forms-field, 
+.page-id-1790 .nf-form-content textarea.ninja-forms-field,
+.page-id-2248 .nf-form-content textarea.ninja-forms-field, .locationform .nf-form-content textarea.ninja-forms-field  {
+	height: 50px;
+}
+.body .button.primary:hover {
+	background: #c08a4e !important;
+}
+body .header-main .header-button > .button:not(.is-outline) {
+	background-color: #7D9A8B !important;
+}
+body.home .full-arch-col-ics.bgimages {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.page-id-1422 .nf-form-content input.ninja-forms-field,
+.page-id-1783 .nf-form-content input.ninja-forms-field,
+.page-id-1784 .nf-form-content input.ninja-forms-field,
+.page-id-1789 .nf-form-content input.ninja-forms-field,
+.page-id-1788 .nf-form-content input.ninja-forms-field,
+.page-id-1790 .nf-form-content input.ninja-forms-field,
+.page-id-2248 .nf-form-content input.ninja-forms-field, .locationform .nf-form-content input.ninja-forms-field{
+	height: 35px;
+}
+
+.page-id-1422 .nf-pass.field-wrap .nf-field-element:after,
+.page-id-1783 .nf-pass.field-wrap .nf-field-element:after,
+.page-id-1784 .nf-pass.field-wrap .nf-field-element:after,
+.page-id-1789 .nf-pass.field-wrap .nf-field-element:after,
+.page-id-1788 .nf-pass.field-wrap .nf-field-element:after,
+.page-id-1790 .nf-pass.field-wrap .nf-field-element:after,
+.page-id-2248 .nf-pass.field-wrap .nf-field-element:after, .location-form .nf-pass.field-wrap .nf-field-element:after{
+	font-size: 20px;
+	top: -6px;
+}
+
+.page-id-1422 .nf-error.field-wrap .nf-field-element:after,
+.page-id-1783 .nf-error.field-wrap .nf-field-element:after,
+.page-id-1784 .nf-error.field-wrap .nf-field-element:after,
+.page-id-1789 .nf-error.field-wrap .nf-field-element:after,
+.page-id-1788 .nf-error.field-wrap .nf-field-element:after,
+.page-id-1790 .nf-error.field-wrap .nf-field-element:after,
+.page-id-2248 .nf-error.field-wrap .nf-field-element:after, .location-form .nf-error.field-wrap .nf-field-element:after{
+	font-size: 10px;
+	height: 33px;
+	width: 25px;
+	line-height: 34px;
+	top:1px;
+    right: 3px;
+}
+
+.page-id-1422 .nf-error, 
+.page-id-1422 .nf-form-content label,
+.page-id-1422 .nf-label-span, 
+.page-id-1422 .banner-description, 
+.page-id-1783 .nf-error, 
+.page-id-1783 .nf-form-content label,
+.page-id-1783 .nf-label-span, 
+.page-id-1783 .banner-description, 
+.page-id-1784 .nf-error, 
+.page-id-1784 .nf-form-content label,
+.page-id-1784 .nf-label-span, 
+.page-id-1784 .banner-description, 
+.page-id-1789 .nf-error, 
+.page-id-1789 .nf-form-content label,
+.page-id-1789 .nf-label-span, 
+.page-id-1789 .banner-description, 
+.page-id-1788 .nf-error, 
+.page-id-1788 .nf-form-content label,
+.page-id-1788 .nf-label-span, 
+.page-id-1788 .banner-description, 
+.page-id-1790 .nf-error, 
+.page-id-1790 .nf-form-content label,
+.page-id-1790 .nf-label-span, 
+.page-id-1790 .banner-description, 
+.page-id-2248 .nf-error, 
+.page-id-2248 .nf-form-content label,
+.page-id-2248 .nf-label-span, 
+.page-id-2248 .banner-description,
+.locationform .nf-error,
+.locationform .nf-form-content label,
+.locationform .nf-label-span,
+.locationform .banner-description
+{
+	font-size: 12px;
+}
+
+.page-id-1422 .nf-form-content .label-above .nf-field-label, 
+.page-id-1783 .nf-form-content .label-above .nf-field-label, 
+.page-id-1784 .nf-form-content .label-above .nf-field-label, 
+.page-id-1789 .nf-form-content .label-above .nf-field-label, 
+.page-id-1788 .nf-form-content .label-above .nf-field-label, 
+.page-id-1790 .nf-form-content .label-above .nf-field-label, 
+.page-id-2248 .nf-form-content .label-above .nf-field-label, .locationform .nf-form-content .label-above .nf-field-label {
+	margin-bottom:0px;
+}
+
+.page-id-1422 .nf-field-container, 
+.page-id-1783 .nf-field-container, 
+.page-id-1784 .nf-field-container, 
+.page-id-1788 .nf-field-container, 
+.page-id-1789 .nf-field-container, 
+.page-id-1790 .nf-field-container, 
+.page-id-2248 .nf-field-container, 
+.locationform .nf-field-container {
+	margin-bottom: 10px;
+}
+
+.more-text {
+	display: none;
+}
+
+.nav-left{
+	flex-flow: row !important;
+}
+
+
+.social-icons .phone {
+	display: none;
+}
+
+
+@media (max-width: 767px) {
+.social-icons .facebook, .social-icons .instagram, .social-icons .tiktok {
+	display: none;
+	}
+	.social-icons .phone {
+	display: block;
+}
+	.esn-book__row > .esn-book__field {
+		flex: 1 1 1px !important;
+	}
+	} 
+
+
+
+.new-number-contcat {
+  animation: wiggle 2s linear infinite;
+left: 25% !important;
+bottom: 5% !important;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+0%, 7% {
+  transform: rotateZ(0);
+}
+15% {
+  transform: rotateZ(-15deg);
+}
+20% {
+  transform: rotateZ(10deg);
+}
+25% {
+  transform: rotateZ(-10deg);
+}
+30% {
+  transform: rotateZ(6deg);
+}
+35% {
+  transform: rotateZ(-4deg);
+}
+40%, 100% {
+  transform: rotateZ(0);
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .new-number-contcat {
+      display: block;
+  }
+
+    .new-number-contcat a {
+      font-size: 14px;
+      padding: 15px 30px;
+			color: #ffffff !important;
+  transition: 1s all;
+  font-weight: 600;
+  background: #26231f!important;
+  }
+	
+	.new-number-contcat {
+  position: fixed;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  z-index: 9999999;
+}
+
+
+}
+
+.nf-form-content textarea.ninja-forms-field {
+	height: 50px !important;
+}
+
+.hide-about-us {
+	visibility: hidden;
+}
+
+.cf7-name-row p {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.cf7-name-column {
+  flex: 1;
+  min-width: 150px;
+}
+
+.preferred-time-select {
+	display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+
+.preferred-time-text{
+	grid-column: 1 / -1 !important;
+    font-weight: bold;
+}
+
+.header-top {
+    min-height: 45px;
+    margin-bottom: 10px;
+}
+
+body .full-arch-col-ics.bgimages {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+/* body .full-arch-col-ics.bgimages .button {
+	background: #3cbcc3 !important;
+} */
+
+@media only screen and (max-width: 550px) {
+	.reverse-on-mobile .small-col-first {
+		order: 2;
+	}
+}
+
+.thank-you-content ul li {
+	list-style-type: none;
+	padding-top: 10px;
+}
+
+.thank-you-content {
+	padding-top: 50px;
+}
+
+/* Responsive treatment plan table on mobile */
+@media (max-width: 767px) {
+	figure.wp-block-table {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	figure.wp-block-table table {
+		min-width: 620px;
+	}
+}
+
+/* =========================================================
+   ESSEN REMEDIAL — Booking Form styles
+   Unique prefix: .esn-book  (isolated from other site forms)
+   Brand accent: #e11d48  (change --esn-accent to restyle)
+   ========================================================= */
+.esn-book {
+  --esn-accent:#e11d48;
+  --esn-accent-soft:#fdecef;
+  --esn-accent-hover:#f3a8b8;
+  --esn-border:#e2e5ea;
+  --esn-text:#1f2430;
+  --esn-muted:#6b7280;
+  max-width:720px;
+  margin:0 auto;
+  color:var(--esn-text);
+  font-size:15px;
+  line-height:1.5;
+}
+
+/* ---------- Header ---------- */
+.esn-book__header { margin-bottom:20px; }
+.esn-book__title { font-size:24px; font-weight:700; margin:0; }
+
+/* ---------- Rows / fields ---------- */
+.esn-book__row {
+  display:flex;
+  gap:16px;
+  flex-wrap:wrap;
+}
+.esn-book__row > .esn-book__field { flex:1 1 220px; }
+.esn-book__field { margin-bottom:18px; }
+
+.esn-book__label {
+  display:block;
+  font-weight:700;
+  font-size:14px;
+  margin-bottom:8px;
+  color:var(--esn-text);
+}
+.esn-book__req { color:var(--esn-accent); margin-left:2px; }
+.esn-book__optional { color:#8a919e; font-weight:400; }
+.esn-book__help { font-size:13px; color:var(--esn-muted); margin:0 0 10px; }
+.esn-book__error { display:block; font-size:12px; color:var(--esn-accent); margin-top:6px; }
+
+/* ---------- Text inputs & selects ---------- */
+.esn-book__input,
+.esn-book__select {
+  width:100%;
+  box-sizing:border-box;
+  padding:11px 13px;
+  font:inherit;
+  font-size:15px;
+  line-height:1.4;               /* prevents the text getting clipped */
+  color:var(--esn-text);
+  background:#fff;
+  border:1.5px solid var(--esn-border);
+  border-radius:8px;height: 3rem;
+}
+/* custom-styled dropdown with our own arrow (kills native clipping) */
+.esn-book__select {
+  cursor:pointer;
+  appearance:none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  height:auto;
+  padding-right:38px;            /* room for the arrow */
+  background-image:linear-gradient(45deg, transparent 50%, #6b7280 50%),
+                   linear-gradient(135deg, #6b7280 50%, transparent 50%);
+  background-repeat:no-repeat;
+  background-position:calc(100% - 19px) center, calc(100% - 14px) center;
+  background-size:5px 6px, 5px 6px;
+}
+.esn-book__input:focus,
+.esn-book__select:focus {
+  outline:none;
+  border-color:var(--esn-accent);
+  box-shadow:0 0 0 3px rgba(225,29,72,.15);
+}
+.esn-book textarea.esn-book__input { min-height:96px; resize:vertical; }
+
+/* ---------- Preferred Time (three aligned dropdowns) ---------- */
+.esn-book__time-group p {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin:0;
+}
+.esn-book__time-group br { display:none; }
+.esn-book__time-group .wpcf7-form-control-wrap { flex:1 1 0; min-width:0; }
+.esn-book__time-group select {
+  width:100%;
+  padding:10px 24px 10px 8px;         /* leaves room for the arrow on the right */
+  text-align:center;
+  text-align-last:center;
+  background-position:calc(100% - 13px) center, calc(100% - 8px) center; /* arrow tucked into the narrow box */
+}
+
+/* ---------- Main Treatment Concern (plain checkbox list, 3 columns) ---------- */
+.esn-book__checks .wpcf7-checkbox {
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:14px 18px;
+}
+.esn-book__checks .wpcf7-list-item { display:block; margin:0; }
+.esn-book__checks .wpcf7-list-item label {
+  display:flex;
+  align-items:flex-start;          /* checkbox stays top-aligned when text wraps */
+  gap:10px;
+  cursor:pointer;
+  font-size:14px;
+  font-weight:400;
+  color:var(--esn-text);
+  line-height:1.3;
+}
+.esn-book__checks .wpcf7-list-item input[type="checkbox"] {
+  appearance:none; -webkit-appearance:none;
+  width:20px; height:20px; flex:0 0 auto; margin:1px 0 0;
+  border:1.5px solid #c3c9d2; border-radius:5px; background:#fff;
+  display:grid; place-content:center; cursor:pointer;
+  transition:border-color .15s ease, background .15s ease;
+}
+.esn-book__checks .wpcf7-list-item input[type="checkbox"]::before {
+  content:""; width:11px; height:11px; transform:scale(0);
+  transition:transform .12s ease-in-out; box-shadow:inset 1em 1em #fff;
+  clip-path:polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+.esn-book__checks .wpcf7-list-item input[type="checkbox"]:checked {
+  background:var(--esn-accent); border-color:var(--esn-accent);
+}
+.esn-book__checks .wpcf7-list-item input[type="checkbox"]:checked::before { transform:scale(1); }
+.esn-book__checks .wpcf7-list-item input[type="checkbox"]:focus-visible {
+  outline:none; box-shadow:0 0 0 3px rgba(225,29,72,.2);
+}
+
+@media (max-width:520px) {
+  .esn-book__checks .wpcf7-checkbox { grid-template-columns:1fr 1fr; }
+}
+
+/* ---------- Yes/No radio pills ---------- */
+.esn-book__radios .wpcf7-radio {
+  display:flex;
+  gap:8px;
+  max-width:100px;
+}
+.esn-book__radios .wpcf7-list-item { flex:1; margin:0; display:block; }
+.esn-book__radios .wpcf7-list-item label {
+  display:flex;
+  align-items:center;
+  gap:9px;
+  padding:9px 0;
+  background:#fff;
+  border-radius:9px;
+  cursor:pointer;
+  font-size:14px;
+  font-weight:600;
+  color:#3a4150;
+  transition:border-color .15s ease, background .15s ease, box-shadow .15s ease, transform .05s ease;
+}
+.esn-book__radios .wpcf7-list-item label:hover {
+  border-color:var(--esn-accent-hover); background:#fffafb; box-shadow:0 2px 8px rgba(225,29,72,.06);
+}
+.esn-book__radios .wpcf7-list-item label:active { transform:translateY(1px); }
+.esn-book__radios .wpcf7-list-item input[type="radio"] {
+  appearance:none; -webkit-appearance:none;
+  width:17px; height:17px; flex:0 0 auto; margin:0;
+  border:1.5px solid #c3c9d2; border-radius:50%; background:#fff;
+  display:grid; place-content:center; cursor:pointer;
+  transition:border-color .15s ease;
+}
+.esn-book__radios .wpcf7-list-item input[type="radio"]::before {
+  content:""; width:9px; height:9px; border-radius:50%; transform:scale(0);
+  transition:transform .12s ease-in-out; box-shadow:inset 1em 1em #fff;
+}
+.esn-book__radios .wpcf7-list-item input[type="radio"]:checked {
+  background:var(--esn-accent); border-color:var(--esn-accent);
+}
+.esn-book__radios .wpcf7-list-item input[type="radio"]:checked::before { transform:scale(1); }
+.esn-book__radios .wpcf7-list-item input[type="radio"]:focus-visible {
+  outline:none; box-shadow:0 0 0 3px rgba(225,29,72,.2);
+}
+.esn-book__radios .wpcf7-list-item label:has(input:checked) {
+  border-color:var(--esn-accent); background:var(--esn-accent-soft); color:var(--esn-text);
+	padding: 9px;
+}
+
+/* ---------- Warning box (pregnancy) ---------- */
+.esn-book__warn {
+  display:flex;
+  gap:10px;
+  padding:12px 14px;
+  margin-bottom:18px;
+  background:#fff8f0;
+  border:1px solid #f6d3a3;
+  border-radius:10px;
+}
+.esn-book__warn-icon {
+  flex:0 0 auto;
+  width:22px; height:22px;
+  display:grid; place-content:center;
+  background:#e8890c; color:#fff;
+  font-weight:700; border-radius:50%;
+  font-size:14px; line-height:1;
+}
+.esn-book__warn p { margin:0; font-size:13.5px; color:#7a5216; }
+.esn-book__warn-strong { font-weight:700; color:#8a3d00; }
+
+/* ---------- Confirmation (acceptance) ---------- */
+.esn-book__confirm {
+  padding:14px 16px;
+  margin-bottom:18px;
+  background:#f8f9fb;
+  border:1px solid var(--esn-border);
+  border-radius:10px;
+}
+.esn-book__confirm-title { margin:0 0 8px; font-size:14px; font-weight:700; }
+.esn-book__confirm .wpcf7-list-item { margin:0; }
+.esn-book__confirm label { display:flex; gap:10px; align-items:flex-start; font-size:13.5px; cursor:pointer; }
+.esn-book__confirm input[type="checkbox"] { margin-top:2px; accent-color:var(--esn-accent); width:17px; height:17px; }
+
+/* ---------- Notice box (health fund) ---------- */
+.esn-book__notice {
+  position:relative;
+  padding:18px 20px;
+  margin:22px 0;
+  background:#fff;
+  border:1.5px solid #cfe4e6;
+  border-radius:12px;
+}
+.esn-book__notice-icon {
+  position:absolute; top:-14px; left:20px;
+  width:30px; height:30px;
+  display:grid; place-content:center;
+  background:#c08a4e; color:#fff;
+  font-weight:700; font-style:italic; border-radius:50%;
+}
+.esn-book__notice-title { margin:6px 0 8px; font-size:15px; font-weight:700; }
+.esn-book__notice p { margin:0 0 8px; font-size:13.5px; color:#42505c; }
+.esn-book__notice p:last-child { margin-bottom:0; }
+
+/* ---------- Notes list ---------- */
+.esn-book__notes { margin:18px 0; font-size:13.5px; color:#42505c; }
+.esn-book__notes-title { margin:0 0 6px; font-weight:700; color:var(--esn-text); }
+.esn-book__notes ul { margin:0; padding-left:20px; }
+.esn-book__notes li { margin-bottom:6px; }
+
+/* ---------- Public holiday banner ---------- */
+.esn-book__banner {
+  padding:12px 16px;
+  margin:18px 0;
+  background:var(--esn-accent-soft);
+  border-left:4px solid var(--esn-accent);
+  border-radius:6px;
+  font-size:13.5px;
+}
+
+/* ---------- Submit ---------- */
+.esn-book__submit {
+  display:inline-block;
+  margin-top:8px;
+  padding:13px 34px;
+  font-size:15px;
+  font-weight:700;
+  color:#fff;
+  background:var(--esn-accent);
+  border:none;
+  border-radius:9px;
+  cursor:pointer;
+  transition:background .15s ease, transform .05s ease, box-shadow .15s ease;
+}
+.esn-book__submit:hover { background:#c50f39; box-shadow:0 4px 14px rgba(225,29,72,.28); }
+.esn-book__submit:active { transform:translateY(1px); }
+
+.ywgc-choose-image.ywgc-choose-template,  .gift-cards-list button{
+	background: var(--essen-blue) !important;
+}
+
+.social-icons .button.icon{min-width: 3em;min-height: 3em;}
+.social-icons .button i, .social-icons button i {top: 2px;}
+
+.book-now {
+	padding-left: 20px;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width:520px) {
+  .esn-book__row { flex-direction:column; gap:0; }
+.we-look{
+	padding-left:0 !important;
+	padding-right:0 !important;
+	}
+}
+.epx-wrap{
+  --epx-gap-x:20px;
+  --epx-gap-y:28px;
+  --epx-cols:5;
+  max-width:900px;
+  margin:0 auto;
+  box-sizing:border-box;
+}
+.epx-wrap *,
+.epx-wrap *::before,
+.epx-wrap *::after{box-sizing:border-box;}
+
+.epx-wrap .epx-row{
+  display:flex !important;
+  flex-wrap:wrap !important;
+  justify-content:center !important;
+  gap:var(--epx-gap-y) var(--epx-gap-x) !important;
+  margin:0 !important;
+  padding:0 !important;
+  list-style:none !important;
+}
+
+.epx-wrap .epx-item{
+  flex:0 0 calc((100% - (var(--epx-cols) - 1) * var(--epx-gap-x)) / var(--epx-cols)) !important;
+  max-width:calc((100% - (var(--epx-cols) - 1) * var(--epx-gap-x)) / var(--epx-cols)) !important;
+  margin:0 !important;
+  padding:0 !important;
+  text-align:center !important;
+}
+
+.epx-wrap .epx-icon{
+  width:56px !important;
+  height:56px !important;
+  margin:0 auto 10px !important;
+  padding:0 !important;
+  border-radius:50% !important;
+  background:#cfdcd3 !important;
+  color:#3f5a50 !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+}
+
+.epx-wrap .epx-icon svg{
+  width:24px !important;
+  height:24px !important;
+  display:block !important;
+  fill:none !important;
+  stroke:currentColor !important;
+  stroke-width:1.8 !important;
+  stroke-linecap:round !important;
+  stroke-linejoin:round !important;
+}
+
+.epx-wrap .epx-item p{
+  margin:0 !important;
+  padding:0 !important;
+  font-size:13px !important;
+  font-weight:600 !important;
+  line-height:1.3 !important;
+  color:#1c1c1c !important;
+}
+
+/* Tablet: 3 + 2 */
+@media (max-width:991px){
+  .epx-wrap{--epx-cols:3; max-width:600px;}
+}
+
+/* Mobile: 2 + 2 + 1 */
+@media (max-width:575px){
+  .epx-wrap{--epx-cols:2; --epx-gap-x:16px; --epx-gap-y:24px; max-width:360px;}
+}
+
+
+/* =========================================================
+   ///// JOIN OUR TEAM /////
+   ========================================================= */
+
+/* =========================================================
+   ESSEN REMEDIAL — Open roles block (.essen-roles)
+   Ek rounded card, andar title + roles, beech mein patli divider lines
+   Fonts theme se hi aayenge (font-family set nahi kiya)
+   ========================================================= */
+.essen-roles,
+.essen-roles .er-title,
+.essen-roles .er-item,
+.essen-roles .er-item h3,
+.essen-roles .er-item p{
+  text-align:left !important;
+}
+
+.essen-roles{
+  max-width:570px;
+  margin:0 auto 0 0;
+  padding:28px 28px 30px;
+  background:#fff;
+  border:1px solid #e9e9e9;
+  border-radius:24px;
+  box-sizing:border-box;
+}
+.essen-roles *,
+.essen-roles *::before,
+.essen-roles *::after{box-sizing:border-box;}
+
+.essen-roles .er-title{
+  margin:0 0 26px;
+  padding:0;
+  font-size:28px;
+  font-weight:400;
+  line-height:1.25;
+  color:#3a3330;
+  text-align:left;
+}
+
+.essen-roles .er-item{
+  margin:0 0 22px;
+  padding:0 0 22px;
+  border-bottom:1px solid #e8e8e8;
+}
+.essen-roles .er-item:last-child{
+  margin-bottom:0;
+  padding-bottom:0;
+  border-bottom:0;
+}
+
+.essen-roles .er-item h3{
+  margin:0 0 8px;
+  padding:0;
+  font-size:22px;
+  font-weight:400;
+  line-height:1.3;
+  color:#3a3330;
+}
+
+.essen-roles .er-item p{
+  margin:0;
+  padding:0;
+  font-size:16px;
+  line-height:1.65;
+  color:#6b6560;
+}
+
+/* Tablet */
+@media (max-width:991px){
+  .essen-roles .er-title{font-size:26px;}
+  .essen-roles .er-item h3{font-size:21px;}
+}
+
+/* Mobile */
+@media (max-width:575px){
+  .essen-roles{
+    max-width:100%;
+    padding:22px 20px 24px;
+    border-radius:20px;
+  }
+  .essen-roles .er-title{font-size:22px; margin-bottom:20px;}
+  .essen-roles .er-item{margin-bottom:18px; padding-bottom:18px;}
+  .essen-roles .er-item h3{font-size:19px;}
+  .essen-roles .er-item p{font-size:15px;}
+}
+
+/* =========================================================
+   ESSEN REMEDIAL — Contact block (.essen-contact)
+   Phone / Email / Address with round icons
+   ========================================================= */
+.essen-contact{
+  --ec-icon-bg:#cfdcd3;
+  --ec-icon-color:#3f5a50;
+  --ec-text:#4A433D;
+  --ec-hover:#7D9A8B;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.essen-contact *,
+.essen-contact *::before,
+.essen-contact *::after{box-sizing:border-box;}
+
+.essen-contact .ec-item{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin:0;
+  padding:0;
+}
+
+.essen-contact .ec-icon{
+  flex:0 0 auto;
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  background:var(--ec-icon-bg);
+  color:var(--ec-icon-color);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:background .2s ease, color .2s ease, transform .2s ease;
+}
+
+.essen-contact .ec-icon svg{
+  width:20px;
+  height:20px;
+  display:block;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.essen-contact .ec-item a{
+  color:var(--ec-text);
+  font-size:16px;
+  font-weight:600;
+  line-height:1.4;
+  text-decoration:none;
+  word-break:break-word;
+  transition:color .2s ease;
+}
+
+.essen-contact .ec-item:hover .ec-icon{
+  background:var(--ec-hover);
+  color:#fff;
+  transform:translateY(-2px);
+}
+.essen-contact .ec-item a:hover,
+.essen-contact .ec-item a:focus-visible{
+  color:var(--ec-hover);
+  text-decoration:underline;
+}
+
+/* Tablet and up: optional horizontal layout, uncomment to use
+@media (min-width:992px){
+  .essen-contact{flex-direction:row; flex-wrap:wrap; gap:20px 36px;}
+}
+*/
+
+/* Mobile */
+@media (max-width:575px){
+  .essen-contact{gap:14px;}
+  .essen-contact .ec-icon{width:40px; height:40px;}
+  .essen-contact .ec-icon svg{width:18px; height:18px;}
+  .essen-contact .ec-item a{font-size:15px;}
+}
+
+/* =========================================================
+   Check list (ul.check) — teal circle with white tick
+   Brand teal: #3cbcc3
+   ========================================================= */
+ul.check{
+  --chk-color:#7D9A8B !important;
+  --chk-text:#5a5550;
+  list-style:none !important;
+  text-align:left;
+}
+
+ul.check li{
+  position:relative;
+  list-style:none !important;
+  margin:0 0 12px !important;
+  padding-left:32px !important;
+  font-size:16px;
+  line-height:1.65;
+  color:var(--chk-text);
+  text-align:left;
+}
+ul.check li:last-child{margin-bottom:0 !important;}
+
+/* Teal circle + white tick */
+ul.check li::before{
+  content:"" !important;
+  position:absolute;
+  left:0;
+  top:3px;
+  width:22px;
+  height:22px;
+  border-radius:50%;
+  background-color:var(--chk-color) !important;
+  background-image:none !important;
+  font-family:inherit;
+  border:0;
+}
+
+/* The white tick is drawn with CSS instead of an embedded image. */
+ul.check li::after{
+  content:"" !important;
+  display:block !important;
+  position:absolute;
+  left:7px;
+  top:10px;
+  width:9px;
+  height:5px;
+  border:solid #fff;
+  border-width:0 0 2px 2px;
+  background:none !important;
+  transform:rotate(-45deg);
+  pointer-events:none;
+}
+
+/* Mobile */
+@media (max-width:575px){
+  ul.check li{
+    font-size:15px;
+    margin-bottom:10px !important;
+    padding-left:30px !important;
+  }
+  ul.check li::before{
+    width:20px;
+    height:20px;
+    top:3px;
+  }
+  ul.check li::after{left:6px; top:9px; width:8px; height:4px;}
+}
+#image_770239271 > div > img{
+	border-radius:10px !important;
+}
+
+/* ///// END JOIN OUR TEAM ///// */
+
+/* Point 02 - Pricing page */
+/* 29.10 Point 5: existing prices and content are unchanged. */
+
+/* Existing heading only: no subtitle or other content is added. */
+body.page-id-1609 #main .priceg-heading {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+body.page-id-1609 #wrapper #main .priceg-heading h2,
+body.page-id-1609 #wrapper #main .priceg-heading h2 em {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: var(--esn-h2, 36px) !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+}
+body.page-id-1609 #wrapper #main .priceg-heading h2 {
+  color: #554c45 !important;
+}
+body.page-id-1609 #wrapper #main .priceg-heading h2 em {
+  color: var(--sage-dark, #7d6e63) !important;
+}
+
+body.page-id-1609 #wrapper #main .priceg-heading h2 {
+  margin-bottom: 22px !important;
+}
+
+body.page-id-1609 #wrapper #main .priceg-heading h2 em {
+  font-style: italic;
+}
+
+body.page-id-1609 #main .pricetablebox > .col-inner {
+  background-color: transparent !important;
+}
+
+/* The image column remains in TablePress; it is hidden only on this page. */
+body.page-id-1609 #main .pricetablebox #tablepress-1 {
+  width: 100% !important;
+  margin: 0 !important;
+  border: 1px solid #d9d2c5 !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: 18px !important;
+  background: #f6f2e9 !important;
+  box-shadow: none !important;
+  overflow: hidden;
+  table-layout: fixed;
+}
+
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr > .column-1 {
+  display: none !important;
+}
+
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr > .column-2 {
+  width: 35% !important;
+  text-align: left !important;
+  white-space: normal !important;
+  overflow-wrap: break-word;
+}
+
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr > :is(.column-3, .column-4, .column-5, .column-6, .column-7) {
+  width: 13% !important;
+  text-align: center !important;
+}
+
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr > :is(td, th) {
+  padding: 14px 18px !important;
+  border: 0 !important;
+  border-right: 1px solid #d9d2c5 !important;
+  color: #151b16 !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(17px, 1.45vw, 24px) !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.3 !important;
+  text-transform: none !important;
+  vertical-align: middle;
+}
+
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr > :last-child {
+  border-right: 0 !important;
+}
+
+/* Alternating white and light-grey rows, without changing the table's actual content. */
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr:not(.row-1):nth-child(even) > :is(td, th),
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr:not(.row-1):nth-child(even):hover > :is(td, th) {
+  background: #ffffff !important;
+}
+
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr:not(.row-1):nth-child(odd) > :is(td, th),
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr:not(.row-1):nth-child(odd):hover > :is(td, th) {
+  background: #f2f2f2 !important;
+}
+
+/* The existing first row remains unchanged, including the blank B1 cell. */
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr.row-1 > :is(td, th) {
+  padding: 19px 18px !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.45) !important;
+  background: #7d9a8b !important;
+  color: #fff !important;
+  font-family: Arial, sans-serif !important;
+  font-size: clamp(12px, 0.95vw, 16px) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  line-height: 1.25 !important;
+  text-transform: uppercase !important;
+}
+
+body.page-id-1609 #main .pricetablebox #tablepress-1 tr.row-1 > :last-child {
+  border-right: 0 !important;
+}
+
+/* Restyle the existing surcharge notice without replacing or hiding its text. */
+body.page-id-1609 #main .pricetablebox .headchips {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 0;
+}
+
+body.page-id-1609 #main .pricetablebox .headchips .hchip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0 6px;
+  width: 100%;
+  margin: 0 !important;
+  padding: 20px 26px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: #7d9a8b !important;
+  color: #fff !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  line-height: 1.4 !important;
+  text-align: center !important;
+  text-transform: uppercase;
+}
+
+body.page-id-1609 #main .pricetablebox .headchips .hchip strong {
+  color: inherit !important;
+  font-weight: 700 !important;
+}
+
+/* Show the existing hidden Book Now link; its /contact-us destination is unchanged. */
+body.page-id-1609 #wrapper #main .pricetablebox > .col-inner > a.button:is([href$="/contact-us"], [href$="/contact-us/"]):not(.disabled):not([aria-disabled="true"]) {
+  display: inline-flex !important;
+	visibility: visible !important;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: max-content;
+  max-width: 100%;
+  min-height: 52px;
+  margin: 24px 0 0 !important;
+  padding: 14px 24px !important;
+  border: 1px solid #7d9a8b !important;
+  border-radius: 50px !important;
+  background-color: #7d9a8b !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+body.page-id-1609 #wrapper #main .pricetablebox > .col-inner > a.button:is([href$="/contact-us"], [href$="/contact-us/"]):not(.disabled):not([aria-disabled="true"]) > span {
+  color: inherit !important;
+}
+body.page-id-1609 #wrapper #main .pricetablebox > .col-inner > a.button:is([href$="/contact-us"], [href$="/contact-us/"]):not(.disabled):not([aria-disabled="true"]):is(:hover, :focus-visible) {
+  border-color: #5a7968 !important;
+  background-color: #5a7968 !important;
+  color: #ffffff !important;
+}
+
+/* On desktop the surcharge and existing button sit next to each other. */
+@media (min-width: 850px) {
+  body.page-id-1609 #main .pricetablebox > .col-inner:has(> #tablepress-1):has(> .headchips):has(> a.button:is([href$="/contact-us"], [href$="/contact-us/"]):not(.disabled):not([aria-disabled="true"])) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 16px;
+    align-items: center;
+  }
+  body.page-id-1609 #main .pricetablebox > .col-inner > #tablepress-1 {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+  body.page-id-1609 #main .pricetablebox > .col-inner > .headchips {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  body.page-id-1609 #main .pricetablebox > .col-inner > a.button:is([href$="/contact-us"], [href$="/contact-us/"]) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  body.page-id-1609 #main .pricetablebox > .col-inner > :not(#tablepress-1):not(.headchips):not(a.button:is([href$="/contact-us"], [href$="/contact-us/"])) {
+    grid-column: 1 / -1;
+  }
+}
+
+/* On mobile keep the real TablePress headings, and scroll the table sideways. */
+@media (max-width: 849px) {
+  body.page-id-1609 #main .priceg-heading {
+    padding-top: 1rem;
+  }
+
+  body.page-id-1609 #wrapper #main .priceg-heading h2,
+  body.page-id-1609 #wrapper #main .priceg-heading h2 em {
+    font-size: var(--esn-h2-m, 28px) !important;
+  }
+
+  body.page-id-1609 #wrapper #main .priceg-heading h2 {
+    margin-bottom: 16px !important;
+  }
+
+  body.page-id-1609 #main .pricetablebox > .col-inner {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body.page-id-1609 #main .pricetablebox #tablepress-1 {
+    display: table !important;
+    min-width: 600px !important;
+    overflow: visible !important;
+  }
+
+  body.page-id-1609 #main .pricetablebox #tablepress-1 tbody {
+    display: table-row-group !important;
+    width: auto !important;
+  }
+
+  body.page-id-1609 #main .pricetablebox #tablepress-1 tr,
+  body.page-id-1609 #main .pricetablebox #tablepress-1 tr.row-1 {
+    display: table-row !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+  }
+
+  body.page-id-1609 #main .pricetablebox #tablepress-1 tr > :is(td, th) {
+    display: table-cell !important;
+    padding: 12px 8px !important;
+    font-size: 15px !important;
+    white-space: normal !important;
+  }
+
+  body.page-id-1609 #main .pricetablebox #tablepress-1 tr.row-1 > :is(td, th) {
+    padding: 14px 6px !important;
+    font-size: 11px !important;
+  }
+
+  /* The name stays visible as customers scroll across the price columns. */
+  body.page-id-1609 #main .pricetablebox #tablepress-1 tr > .column-2 {
+    position: sticky;
+    left: -13px;
+    z-index: 1;
+    width: 32% !important;
+  }
+
+  body.page-id-1609 #main .pricetablebox #tablepress-1 tr.row-1 > .column-2 {
+    z-index: 2;
+  }
+
+  body.page-id-1609 #main .pricetablebox #tablepress-1 tr > :is(.column-3, .column-4, .column-5, .column-6, .column-7) {
+    width: 13.6% !important;
+  }
+
+  /* Suppress the old theme's generated labels; TablePress supplies the text. */
+  body.page-id-1609 #main .pricetablebox #tablepress-1 tr > :is(td, th)::before {
+    content: none !important;
+  }
+
+  /* Keep the existing surcharge and scroll hint visible while scrolling. */
+  body.page-id-1609 #main .pricetablebox > .col-inner > .headchips,
+  body.page-id-1609 #main .pricetablebox > .col-inner > .text.show-for-small {
+    position: sticky;
+    left: 0;
+  }
+
+  /* Keep the existing booking button visible when the table scrolls sideways. */
+  body.page-id-1609 #wrapper #main .pricetablebox > .col-inner > a.button:is([href$="/contact-us"], [href$="/contact-us/"]):not(.disabled):not([aria-disabled="true"]) {
+    position: sticky;
+    left: 0;
+    display: flex !important;
+    margin: 18px auto 0 !important;
+  }
+
+  body.page-id-1609 #main .pricetablebox .headchips {
+    margin-top: 18px;
+  }
+
+  body.page-id-1609 #main .pricetablebox .headchips .hchip {
+    padding: 17px 20px !important;
+    border-radius: 18px !important;
+    font-size: 12px !important;
+  }
+}
+
+/* The scroll instruction is already present in the Pricing page content. */
+@media (max-width: 660px) {
+  body.page-id-1609 #main .pricetablebox > .col-inner > .text.show-for-small {
+    display: block !important;
+  }
+}
+
+/* END Point 02 - Pricing page */
+/* Point 05 — About page banner */
+body.page-id-14 #main section.section:has(>.section-content .hide-about-us){min-height:56vw;padding-bottom:clamp(80px, 10vw, 160px);}
+body.page-id-14 #main section.section:has(>.section-content .hide-about-us)>.section-bg{background-position:center bottom;background-size:cover;}
+@media (max-width: 849px) {
+  body.page-id-14 #main section.section:has(>.section-content .hide-about-us){min-height:75vw;padding-bottom:40px;}
+}
+/* END Point 05 — About page banner */
+/* Point 12 — Individual treatment-page banners */
+/* Stack the existing title column above the booking-form column. */
+body:is(.page-id-6272,.page-id-6750,.page-id-6280,.page-id-6947,.page-id-6284,.page-id-6278,.page-id-6274,.page-id-6276) #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col{flex:0 0 100%;max-width:100%;}
+/* Centre the existing heading, description and Contact Us button. */
+body:is(.page-id-6272,.page-id-6750,.page-id-6280,.page-id-6947,.page-id-6284,.page-id-6278,.page-id-6274,.page-id-6276) #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col:has(>.col-inner h1)>.col-inner{max-width:1000px;margin-left:auto!important;margin-right:auto!important;text-align:center;}
+/* Keep treatment lists easy to read within the centred description. */
+body:is(.page-id-6272,.page-id-6750,.page-id-6280,.page-id-6947,.page-id-6284,.page-id-6278,.page-id-6274,.page-id-6276) #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col:has(>.col-inner h1)>.col-inner ul{width:fit-content;max-width:100%;margin-left:auto;margin-right:auto;text-align:left;}
+body:is(.page-id-6272,.page-id-6750,.page-id-6280,.page-id-6947,.page-id-6284,.page-id-6278,.page-id-6274,.page-id-6276) #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col:has(>.col-inner h1)>.col-inner a.button[href="#Contact"]{margin-right:0;}
+/* Centre the form's introductory heading and description. */
+body:is(.page-id-6272,.page-id-6750,.page-id-6280,.page-id-6947,.page-id-6284,.page-id-6278,.page-id-6274,.page-id-6276) #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col:has(>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col-inner>.text>:is(h2,.banner-description){text-align:center;}
+/* Widen and centre the existing form without changing its fields. */
+body:is(.page-id-6272,.page-id-6750,.page-id-6280,.page-id-6947,.page-id-6284,.page-id-6278,.page-id-6274,.page-id-6276) #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col .wpcf7[data-wpcf7-id="6643"] .esn-book{max-width:960px;margin-left:auto;margin-right:auto;text-align:left;}
+/* Keep the existing Hot Stone video circular and centred. */
+body.page-id-6284 #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col:has(>.col-inner h1)>.col-inner .banner.circle-ics.has-video{width:100%;max-width:100%;aspect-ratio:1 / 1;padding-top:0!important;margin-left:auto;margin-right:auto;}
+/* Preserve approximately the video's original size at each breakpoint. */
+@media (min-width: 550px) {
+  body.page-id-6284 #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col:has(>.col-inner h1)>.col-inner .banner.circle-ics.has-video{width:min(100%, calc(50vw - 30px));}
+}
+@media (min-width: 850px) {
+  body.page-id-6284 #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col:has(>.col-inner h1)>.col-inner .banner.circle-ics.has-video{width:min(100%, calc(50vw - 60px), 635px);}
+}
+@media (max-width: 549px) {
+  /* Give the existing form a little more usable space on small screens. */
+  body:is(.page-id-6272,.page-id-6750,.page-id-6280,.page-id-6947,.page-id-6284,.page-id-6278,.page-id-6274,.page-id-6276) #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col:has(>.col-inner .wpcf7[data-wpcf7-id="6643"])>.col-inner{padding:20px!important;}
+}
+@media (max-width: 400px) {
+  /* Prevent long checkbox labels from overflowing on narrow phones. */
+  body:is(.page-id-6272,.page-id-6750,.page-id-6280,.page-id-6947,.page-id-6284,.page-id-6278,.page-id-6274,.page-id-6276) #main .row.row-large:has(>.col>.col-inner h1):has(>.col>.col-inner .wpcf7[data-wpcf7-id="6643"]) .wpcf7[data-wpcf7-id="6643"] .esn-book__checks .wpcf7-checkbox{grid-template-columns:1fr;}
+}
+/* END Point 12 */
+/* Point 13 — Gift Card product buttons and selection indicators */
+/* The existing Gift Card product only; disabled controls keep their state. */
+body #product-2207 input.ywgc-choose-image.ywgc-choose-template:not(:disabled):not(.disabled):not([aria-disabled="true"]),body #product-2207 .gift-cards-list button.ywgc-amount-buttons:not(:disabled):not(.disabled):not([aria-disabled="true"]),body #product-2207 button.gift_card_add_to_cart_button:not(:disabled):not(.disabled):not([aria-disabled="true"]){background-color:#7d9a8b!important;border-color:#7d9a8b!important;color:#ffffff!important;}
+body #product-2207 input.ywgc-choose-image.ywgc-choose-template:not(:disabled):not(.disabled):not([aria-disabled="true"]):is(:hover,:focus-visible),body #product-2207 .gift-cards-list button.ywgc-amount-buttons:not(:disabled):not(.disabled):not([aria-disabled="true"]):is(:hover,:focus-visible),body #product-2207 button.gift_card_add_to_cart_button:not(:disabled):not(.disabled):not([aria-disabled="true"]):is(:hover,:focus-visible){background-color:#5a7968!important;border-color:#5a7968!important;color:#ffffff!important;}
+/* Keep the chosen amount visibly distinct. */
+body #product-2207 .gift-cards-list button.ywgc-amount-buttons.selected_button:not(:disabled):not(.disabled):not([aria-disabled="true"]){background-color:#3f5c4e!important;border-color:#3f5c4e!important;color:#ffffff!important;box-shadow:inset 0 0 0 2px #ffffff!important;}
+body #product-2207 .gift-cards-list button.ywgc-amount-buttons:not(:disabled):not(.disabled):not([aria-disabled="true"]) .woocommerce-Price-amount,body #product-2207 .gift-cards-list button.ywgc-amount-buttons:not(:disabled):not(.disabled):not([aria-disabled="true"]) .woocommerce-Price-currencySymbol{color:inherit!important;}
+/* Keep the plugin's red invalid-amount state visible. */
+body #product-2207 .ywgc-manual-amount-container:not(.ywgc-red-border){border-color:#7d9a8b!important;}
+body #product-2207 .ywgc-manual-amount-container.ywgc-red-border{border-color:#c00000!important;}
+body #product-2207 .selected_button .ywgc-manual-currency-symbol,body #product-2207 .selected_button #ywgc-manual-amount{background-color:#3f5c4e!important;color:#ffffff!important;}
+body #product-2207 .ywgc-preset-image.selected_image_parent{outline-color:#3f5c4e!important;}
+body #product-2207 .ywgc-preset-image.selected_image_parent::after{background-color:#3f5c4e!important;color:#ffffff!important;}
+body #product-2207 .ywgc-form-preview-separator{background-color:#7d9a8b!important;}
+body #product-2207 .ywgc-form-preview-amount{color:#3f5c4e!important;}
+/* Quantity controls remain controls, with a subtle sage treatment. */
+body #product-2207 .ux-quantity__button:not(:disabled):not(.disabled):not([aria-disabled="true"]){background-color:#e5eee8!important;border-color:#7d9a8b!important;color:#16261e!important;}
+body #product-2207 .ux-quantity__button:not(:disabled):not(.disabled):not([aria-disabled="true"]):is(:hover,:focus-visible){background-color:#7d9a8b!important;color:#ffffff!important;}
+body #product-2207 :is(input.ywgc-choose-image,.ywgc-amount-buttons,.gift_card_add_to_cart_button,.ux-quantity__button):focus-visible{outline:3px solid #153f2d;outline-offset:3px;}
+/* END Point 13 */
+/* Point 15 — Contact details above the wider appointment form */
+body.page-id-203 #booking .contact-section{grid-template-columns:minmax(0, 1fr)!important;gap:32px;}
+body.page-id-203 #booking .contact-details{position:static;display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));column-gap:24px;}
+body.page-id-203 #booking .contact-details>:is(h2,h3){grid-column:1 / -1;}
+body.page-id-203 #booking .contact-detail-card,body.page-id-203 #booking .contact-detail-card__body{min-width:0;}
+body.page-id-203 #booking .contact-detail-card__body a{overflow-wrap:anywhere;}
+@media (min-width: 701px) {
+  body.page-id-203 #booking .contact-detail-card{border-bottom:0;}
+}
+body.page-id-203 #booking .contact-section>.form-wrapper{width:100%;min-width:0;}
+body.page-id-203 #booking .form-wrapper .wpcf7[data-wpcf7-id="6643"] .esn-book{max-width:1050px;margin-left:auto;margin-right:auto;}
+@media (max-width: 700px) {
+  body.page-id-203 #booking .contact-details{grid-template-columns:minmax(0, 1fr);}
+}
+@media (max-width: 400px) {
+  body.page-id-203 #booking .contact-section>.form-wrapper{padding:16px;}
+  body.page-id-203 #booking .form-wrapper .wpcf7[data-wpcf7-id="6643"] .esn-book__checks .wpcf7-checkbox{grid-template-columns:1fr;}
+}
+/* END Point 15 */
+/* Point 16 — Sage links and action buttons */
+/* Content and popup text links; dark sections and special buttons keep their own styles. */
+body :is(#main,.mfp-content) a[href]:not(.button):not(.icon):not(.book-now):not(.round-arrow):not(.essans-blog-read-more):not(.essen-hero__btn):not(:has(img)):where(:not(:is(#main-menu *,.dark *,.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *))){color:#536f60!important;}
+body :is(#main,.mfp-content) a[href]:not(.button):not(.icon):not(.book-now):not(.round-arrow):not(.essans-blog-read-more):not(.essen-hero__btn):not(:has(img)):where(:not(:is(#main-menu *,.dark *,.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *)))>span{color:inherit!important;}
+body :is(#main,.mfp-content) a[href]:not(.button):not(.icon):not(.book-now):not(.round-arrow):not(.essans-blog-read-more):not(.essen-hero__btn):not(:has(img)):where(:not(:is(#main-menu *,.dark *,.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *))):is(:hover,:focus-visible){color:#3f5c4e!important;text-decoration:underline;}
+/* Keep navigation dark for readability; use a sage hover. */
+body #header .header-nav-main>li>a:not(.button),body #header .header-nav-main .nav-dropdown a,body #main-menu .nav-sidebar a{color:#4a433d!important;}
+body #header .header-nav-main>li>a:not(.button):is(:hover,:focus-visible),body #header .header-nav-main .nav-dropdown a:is(:hover,:focus-visible),body #main-menu .nav-sidebar a:is(:hover,:focus-visible){color:#536f60!important;}
+/* Filled actions. Disabled, gift-card-specific and payment-provider controls are left alone. */
+body :is(#main,.mfp-content) :is(a.button:not(.icon):not(.is-outline):not(.is-link):not(.is-underline),a.essen-hero__btn,a.wp-element-button,button.button:not(.icon):not(.is-form),button[type="submit"]:not(.icon),input[type="submit"],input.ywgc_apply_gift_card_button):not(.is-outline):not(.is-link):not(.is-underline):where(:not(:is(:disabled,.disabled,[aria-disabled="true"]))):not(.gift_card_add_to_cart_button):not(.ywgc-amount-buttons):where(:not(:is(.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *))),body #header .header-button a.button:not(.icon):where(:not(:is(.disabled,[aria-disabled="true"]))),body #footer section:has(.google-map-ics) a.button:not(.icon):where(:not(:is(.disabled,[aria-disabled="true"]))),body #top-link{background-color:#7d9a8b!important;border-color:#7d9a8b!important;color:#ffffff!important;}
+/* Preserve the previous disabled state for header and map buttons. */
+body #header .header-button a.button:not(.icon):is(.disabled,[aria-disabled="true"]),body #footer section:has(.google-map-ics) a.button:not(.icon):is(.disabled,[aria-disabled="true"]){background-color:#7d9a8b!important;border-color:#7d9a8b!important;color:#16261e!important;}
+body :is(#main,.mfp-content) :is(a.button:not(.icon):not(.is-outline):not(.is-link):not(.is-underline),a.essen-hero__btn,a.wp-element-button,button.button:not(.icon):not(.is-form),button[type="submit"]:not(.icon),input[type="submit"],input.ywgc_apply_gift_card_button):not(.is-outline):not(.is-link):not(.is-underline):where(:not(:is(:disabled,.disabled,[aria-disabled="true"]))):not(.gift_card_add_to_cart_button):not(.ywgc-amount-buttons):where(:not(:is(.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *))):is(:hover,:focus-visible),body #header .header-button a.button:not(.icon):is(:hover,:focus-visible),body #footer section:has(.google-map-ics) a.button:not(.icon):is(:hover,:focus-visible),body #top-link:is(:hover,:focus-visible){background-color:#5a7968!important;border-color:#5a7968!important;color:#ffffff!important;}
+/* Let button-label spans follow the button's normal and hover colours. */
+body :is(#main,.mfp-content) a.button:not(.icon):where(:not(:is(.disabled,[aria-disabled="true"]))):where(:not(:is(.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *)))>span,body #header .header-button a.button>span,body #footer section:has(.google-map-ics) a.button>span{color:inherit!important;}
+/* Outline and text-only buttons keep their existing shape. */
+body :is(#main,.mfp-content) a.button.is-outline:not(.icon):where(:not(:is(.disabled,[aria-disabled="true"]))):where(:not(:is(.dark *,.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *))){background-color:transparent!important;border-color:#536f60!important;color:#536f60!important;}
+body :is(#main,.mfp-content) a.button.is-outline:not(.icon):where(:not(:is(.disabled,[aria-disabled="true"]))):where(:not(:is(.dark *,.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *))):is(:hover,:focus-visible){background-color:#5a7968!important;border-color:#5a7968!important;color:#ffffff!important;}
+body :is(#main,.mfp-content) a.button:is(.is-link,.is-underline):not(.icon):not(.is-outline):where(:not(:is(.disabled,[aria-disabled="true"]))):where(:not(:is(.dark *,.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *))),body #main :is(button.read-more,button.pricing-readmore-btn):where(:not(:is(:disabled,.disabled,[aria-disabled="true"]))):where(:not(:is(.payment_box *,#payment *))){color:#536f60!important;border-color:#536f60!important;}
+body :is(#main,.mfp-content) a.button:is(.is-link,.is-underline):not(.icon):not(.is-outline):where(:not(:is(.disabled,[aria-disabled="true"]))):where(:not(:is(.dark *,.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *))):is(:hover,:focus-visible),body #main :is(button.read-more,button.pricing-readmore-btn):where(:not(:is(:disabled,.disabled,[aria-disabled="true"]))):where(:not(:is(.payment_box *,#payment *))):is(:hover,:focus-visible){color:#3f5c4e!important;}
+/* A visible keyboard focus indicator for normal action buttons. */
+body :is(#main,.mfp-content) :is(a.button:not(.icon),button.button:not(.icon),input.wpcf7-submit):where(:not(:is(:disabled,.disabled,[aria-disabled="true"]))):where(:not(:is(.payment_box *,#payment *,.wc-block-components-express-payment *,.wcpay-payment-request-wrapper *,.paypal-buttons *))):focus-visible,body #header .header-button a.button:focus-visible,body #footer section:has(.google-map-ics) a.button:focus-visible{outline:3px solid #153f2d;outline-offset:3px;}
+/* Pricing hero Book Now: user-approved sage fill with white label. */
+body.page-id-1609 #main .pricing-section .priceg-heading a.button.is-outline[href="#Contact"]:where(:not(:is(.disabled,[aria-disabled="true"]))){background-color:#7d9a8b!important;border-color:#7d9a8b!important;color:#ffffff!important;}
+body.page-id-1609 #main .pricing-section .priceg-heading a.button.is-outline[href="#Contact"]:where(:not(:is(.disabled,[aria-disabled="true"]))):is(:hover,:focus-visible){background-color:#5a7968!important;border-color:#5a7968!important;color:#ffffff!important;}
+/* The Treatments banner button is styled in the child theme; keep its hover label white. */
+body.page-id-6243 #main .treatments-page-hero a.book-now:is(:hover,:focus-visible){color:#ffffff!important;}
+/* END Point 16 */
+
+body #footer section.section:has(.footer-dropdown-widget)>.section-bg{background-color:transparent!important;background-image:none!important;}
+body #footer section.section:has(.footer-dropdown-widget) .row>.col>.col-inner{background-color:transparent!important;}
+body #footer section.section:has(.footer-dropdown-widget) :is(h1,h2,h3,h4,h5,h6,p,li,a,span,strong,summary,i),body #footer .absolute-footer :is(p,a,span,strong){color:#ffffff!important;font-weight:normal;}
+
+/* Text links turn dark sage with an underline on hover/focus. */
+body #footer section.section:has(.footer-dropdown-widget) a:not(.icon):not(:has(img)):is(:hover,:focus-visible),body #footer section.section:has(.footer-dropdown-widget) a:not(.icon):not(:has(img)):is(:hover,:focus-visible) :is(span,strong,em),body #footer .absolute-footer a:not(.icon):not(:has(img)):is(:hover,:focus-visible),body #footer .absolute-footer a:not(.icon):not(:has(img)):is(:hover,:focus-visible) :is(span,strong,em){color:#1b3027!important;text-decoration:underline!important;text-underline-offset:2px;}
+/* Image and icon links retain their previous hover treatment. */
+body #footer section.section:has(.footer-dropdown-widget) a:not(.icon):has(img):is(:hover,:focus-visible),body #footer .absolute-footer a:is(.icon,:has(img)):is(:hover,:focus-visible){color:#ffffff!important;text-decoration:underline!important;}
+body #footer section.section:has(.footer-dropdown-widget) a:focus-visible,body #footer .absolute-footer a:focus-visible{outline:2px solid #ffffff;outline-offset:3px;}
+/* Keep the existing location dropdown readable and usable. */
+body #footer section.section:has(.footer-dropdown-widget) .footer-dropdown-widget details.main-dropdown{border-color:rgba(255, 255, 255, 0.65)!important;}
+body #footer section.section:has(.footer-dropdown-widget) .footer-dropdown-widget .cat-title{background-color:#5a7968!important;border-left-color:#ffffff!important;color:#ffffff!important;}
+body #footer section.section:has(.footer-dropdown-widget) .footer-dropdown-widget .cat-title:is(:hover,:focus-visible){background-color:#3f5c4e!important;}
+body #footer section.section:has(.footer-dropdown-widget) .footer-dropdown-widget .cat-title::after{color:#ffffff!important;}
+body #footer section.section:has(.footer-dropdown-widget) .is-divider{background-color:rgba(255, 255, 255, 0.55)!important;}
+/* Convert only the Essen logo, not the Google badge, to white. */
+body #footer section.section:has(.footer-dropdown-widget) .img-inner:has(>img[src*="/Logo-Essen"]){background-color:#7d9a8b;}
+body #footer section.section:has(.footer-dropdown-widget) img[src*="/Logo-Essen"]{filter:grayscale(1) invert(1) brightness(1.45)!important;mix-blend-mode:screen;}
+body #footer section.section:has(.footer-dropdown-widget) .social-icons:not(.follow-icons) a.button{background-color:transparent!important;border-color:#ffffff!important;color:#ffffff!important;}
+body #footer section.section:has(.footer-dropdown-widget) .social-icons:not(.follow-icons) a.button:is(:hover,:focus-visible){background-color:rgba(255, 255, 255, 0.16)!important;}
+/* Same-sized, spaced circles with room around the original-colour icons. */
+body #footer section.section:has(.footer-dropdown-widget) .social-icons.follow-icons{display:flex!important;flex-wrap:wrap!important;justify-content:flex-start!important;align-items:center!important;gap:8px!important;}
+body #footer section.section:has(.footer-dropdown-widget) .social-icons.follow-icons a.button.icon{box-sizing:border-box!important;display:inline-flex!important;flex:0 0 42px!important;align-items:center!important;justify-content:center!important;width:42px!important;min-width:42px!important;height:42px!important;min-height:42px!important;margin:0!important;padding:0!important;border:1px solid #ffffff!important;border-radius:50%!important;background-color:#ffffff!important;line-height:1!important;filter:none!important;text-decoration:none!important;}
+body #footer section.section:has(.footer-dropdown-widget) .social-icons.follow-icons a.button.icon:is(:hover,:focus-visible){background-color:#f1f6f2!important;border-color:#ffffff!important;}
+body #footer section.section:has(.footer-dropdown-widget) .social-icons.follow-icons a.button.icon i{filter:none!important;flex:0 0 auto!important;top:0!important;}
+body #footer section.section:has(.footer-dropdown-widget) .social-icons.follow-icons a.button.icon :is(.icon-facebook,.icon-instagram,.icon-tiktok){width:22px!important;height:22px!important;background-size:contain!important;}
+/* Phone is a font icon, not a social image; dark colour keeps it visible on white. */
+body #footer section.section:has(.footer-dropdown-widget) .social-icons.follow-icons a.button.icon .icon-phone{color:#1b3027!important;font-size:20px!important;}
+/* A light backing makes the original Google badge easier to see. */
+body #footer section.section:has(.footer-dropdown-widget) .img-inner:has(>img[src*="/Google-verified-business"]){background-color:#ffffff!important;padding:4px 6px;border-radius:6px;}
+body #footer section.section:has(.footer-dropdown-widget) img[src*="/Google-verified-business"]{display:block;filter:none!important;mix-blend-mode:normal!important;}
+/* END Point 14 — consolidated footer */
+/* Our Treatments page — reference-inspired grid; keeps descriptions and durations. */
+/* Only the Flatsome section containing the treatment catalog. */
+body.page-id-6243 #main section.section:has(>.section-content>.treatment-catalog){padding-top:0!important;padding-bottom:0!important;background-color:#f7f6ef!important;}
+body.page-id-6243 #main section.section:has(>.section-content>.treatment-catalog)>.section-bg{background-color:#f7f6ef!important;}
+body.page-id-6243 #main .treatment-catalog{padding:60px 0 80px!important;background-color:#f7f6ef!important;}
+/* Visual heading, matching the reference. The page's existing H1 is unchanged. */
+body.page-id-6243 #main .treatment-catalog::before{content:"EXPLORE";display:block;margin:0 0 8px;color:#8f765f !important;font:600 12px/1.3 Arial, sans-serif;letter-spacing:0.2em;text-align:center;}
+body.page-id-6243 #main .treatment-catalog .catalog-list{display:grid!important;grid-template-columns:repeat(4, minmax(0, 1fr))!important;gap:20px!important;width:min(1500px, calc(100% - 64px))!important;max-width:1500px;margin:0 auto!important;padding:0!important;border:0;}
+body.page-id-6243 #main .treatment-catalog .catalog-list::before{content:"Our Treatments";grid-column:1 / -1;display:block;margin:0 0 8px;color:#554c45!important;font:400 clamp(38px, 4.5vw, 68px)/1.1 Georgia, "Times New Roman", serif;letter-spacing:-0.03em;text-align:center;}
+/* The original card content, pictures and destination links stay in place. */
+body.page-id-6243 #main .treatment-catalog .catalog-card{display:grid!important;grid-template-columns:minmax(0, 1fr) 54px!important;grid-template-rows:auto auto 1fr auto;align-items:start!important;align-self:stretch;gap:0!important;min-width:0;margin:0!important;padding:0!important;overflow:hidden;border:1px solid #e3e2d8!important;border-radius:8px;background-color:rgb(232, 221, 211)!important;}
+body.page-id-6243 #main .treatment-catalog .catalog-card .catalog-image{grid-column:1 / -1;grid-row:1;position:relative;width:100%;aspect-ratio:2 / 1;overflow:hidden;}
+body.page-id-6243 #main .treatment-catalog .catalog-card .catalog-image img{display:block;width:100%!important;height:100%!important;object-fit:cover;border-radius:0!important;}
+body.page-id-6243 #main .treatment-catalog .catalog-card .catalog-meta{position:absolute;top:10px;left:12px;z-index:1;}
+/* Place the heading, description, duration and existing arrow in the card grid. */
+body.page-id-6243 #main .treatment-catalog .catalog-card>div:not(.catalog-image):not(.catalog-action),body.page-id-6243 #main .treatment-catalog .catalog-card>.catalog-action{display:contents!important;}
+body.page-id-6243 #main .treatment-catalog .catalog-card h2{grid-column:1;grid-row:2;min-width:0;margin:0!important;padding:16px 0 10px 16px;color:#554c45!important;font:400 clamp(18px, 1.35vw, 21px)/1.3 Georgia, "Times New Roman", serif!important;letter-spacing:-0.03em!important;overflow-wrap:anywhere;}
+body.page-id-6243 #main .treatment-catalog .catalog-card p{grid-column:1 / -1;grid-row:3;min-width:0;margin:0!important;padding:0 16px 16px;max-width:none;height:auto!important;overflow:visible!important;overflow-wrap:anywhere;color:#46594d!important;font:400 14px/1.55 Arial, sans-serif!important;}
+body.page-id-6243 #main .treatment-catalog .catalog-card .catalog-action>span{display:block!important;grid-column:1;grid-row:4;align-self:center;box-sizing:border-box;width:fit-content;max-width:calc(100% - 16px);margin:0 0 16px 16px;padding:8px 11px;border-radius:4px;background-color:var(--sage-dark, #7d6e63)!important;color:#ffffff!important;font:600 12px/1.4 Arial, sans-serif!important;letter-spacing:0;text-align:left;text-transform:none;overflow-wrap:anywhere;}
+body.page-id-6243 #main .treatment-catalog .catalog-card .catalog-action>a.round-arrow{display:grid!important;grid-column:2;grid-row:4;align-self:center;justify-self:end;place-items:center;box-sizing:border-box;width:38px;height:38px;margin:0 16px 16px 0;border:1px solid var(--sage-dark, #7d6e63)!important;border-radius:50%;background-color:var(--sage-dark, #7d6e63)!important;color:#ffffff!important;font-size:0!important;text-decoration:none!important;}
+body.page-id-6243 #main .treatment-catalog .catalog-card .catalog-action>a.round-arrow::before{content:"→";color:inherit!important;font:400 20px/1 Arial, sans-serif;}
+body.page-id-6243 #main .treatment-catalog .catalog-card .catalog-action>a.round-arrow:is(:hover,:focus-visible){border-color:#554c45!important;background-color:#554c45!important;color:#ffffff!important;}
+body.page-id-6243 #main .treatment-catalog .catalog-card .catalog-action>a.round-arrow:focus-visible{outline:3px solid #153f2d;outline-offset:3px;}
+/* 4 columns on desktop, then 3 / 2 / 1 as the screen gets narrower. */
+@media (max-width: 1100px) {
+  body.page-id-6243 #main .treatment-catalog .catalog-list{grid-template-columns:repeat(3, minmax(0, 1fr))!important;}
+}
+@media (max-width: 800px) {
+  body.page-id-6243 #main .treatment-catalog .catalog-list{grid-template-columns:repeat(2, minmax(0, 1fr))!important;}
+}
+@media (max-width: 599px) {
+  body.page-id-6243 #main .treatment-catalog{padding:42px 0 56px!important;}
+  body.page-id-6243 #main .treatment-catalog .catalog-list{grid-template-columns:minmax(0, 1fr)!important;width:calc(100% - 32px)!important;gap:16px!important;}
+  body.page-id-6243 #main .treatment-catalog .catalog-list::before{font-size:clamp(30px, 9vw, 38px);}
+}
+/* END Our Treatments reference grid */
+/* Homepage Discover: four compact cards in one row on desktop. */
+@media (min-width: 1024px) {
+  body.home #main .section>.section-content>.row.align-center:has(>.col>.col-inner .text>h3.alt-font)+.row.align-equal.spacial-color:has(>.col.full-arch-col-ics:nth-of-type(4)>.col-inner>.icon-box.icon-box-center)>.col.full-arch-col-ics{flex-basis:25%!important;max-width:25%!important;min-width:0;}
+  body.home #main .section>.section-content>.row.align-center:has(>.col>.col-inner .text>h3.alt-font)+.row.align-equal.spacial-color:has(>.col.full-arch-col-ics:nth-of-type(4)>.col-inner>.icon-box.icon-box-center)>.col.full-arch-col-ics>.col-inner{padding:24px 18px 28px!important;border-radius:60px!important;}
+  body.home #main .section>.section-content>.row.align-center:has(>.col>.col-inner .text>h3.alt-font)+.row.align-equal.spacial-color:has(>.col.full-arch-col-ics:nth-of-type(4)>.col-inner>.icon-box.icon-box-center)>.col.full-arch-col-ics h2{font-size:22px!important;line-height:1.25!important;overflow-wrap:anywhere;}
+  body.home #main .section>.section-content>.row.align-center:has(>.col>.col-inner .text>h3.alt-font)+.row.align-equal.spacial-color:has(>.col.full-arch-col-ics:nth-of-type(4)>.col-inner>.icon-box.icon-box-center)>.col.full-arch-col-ics p{font-size:16px!important;line-height:1.5!important;overflow-wrap:anywhere;}
+}
+/* END Homepage Discover cards */
+/* Home hero: make Read More look like a text link, not a pill button. The existing button element and expand/collapse script remain unchanged. */
+body.home #wrapper #main .luxury-hero-copy .hero-lead button.read-more{display:inline-block!important;min-height:0!important;margin:8px 0 0!important;padding:4px 0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;color:#536f60!important;line-height:1.4!important;text-transform:none!important;text-decoration:underline!important;text-underline-offset:3px;cursor:pointer;}
+body.home #wrapper #main .luxury-hero-copy .hero-lead button.read-more:is(:hover,:focus-visible){background:transparent!important;box-shadow:none!important;color:#3f5c4e!important;text-decoration:underline!important;}
+body.home #wrapper #main .luxury-hero-copy .hero-lead button.read-more:focus-visible{outline:2px solid #3f5c4e;outline-offset:3px;}
+/* END Home Read More text-link correction */
+
+/* 03 Nov updates. No photo URLs or embedded image data. */
+
+/* Treatments page: brown small heading and reference-style catalog title. */
+body.page-id-6243 #main .treatments-page-hero .eyebrow,
+body.page-id-6243 #main .treatment-catalog::before {
+  color: #8f765f !important;
+}
+body.page-id-6243 #main .treatment-catalog .catalog-list.essen-title-ready::before {
+  content: none !important;
+}
+body.page-id-6243 #main .treatment-catalog .catalog-list > h2.essen-catalog-title {
+  grid-column: 1 / -1;
+  margin: 0 0 8px !important;
+  color: #554c45 !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: var(--esn-h2, 36px) !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  text-align: center;
+}
+body.page-id-6243 #main .treatment-catalog .catalog-list > h2.essen-catalog-title em {
+  color: #7d6e63 !important;
+  font-style: italic;
+  font-weight: 400 !important;
+}
+@media (max-width: 549px) {
+  body.page-id-6243 #main .treatment-catalog .catalog-list > h2.essen-catalog-title {
+    font-size: var(--esn-h2-m, 28px) !important;
+  }
+}
+
+/* Spacing for existing Flatsome phone and clock font icons. */
+body #header #top-bar .essen-topbar-icon {
+  display: inline-block;
+  margin-right: 0.45em;
+  font-size: 1em;
+  color: inherit;
+  vertical-align: middle;
+}
+
+/* Pricing: only the body-row colours and existing lower Book Now change. */
+body.page-id-1609 #wrapper #main .pricetablebox #tablepress-1 tr:not(.row-1):nth-child(even) > :is(td, th),
+body.page-id-1609 #wrapper #main .pricetablebox #tablepress-1 tr:not(.row-1):nth-child(even):hover > :is(td, th) {
+  background: #ffffff !important;
+}
+body.page-id-1609 #wrapper #main .pricetablebox #tablepress-1 tr:not(.row-1):nth-child(odd) > :is(td, th),
+body.page-id-1609 #wrapper #main .pricetablebox #tablepress-1 tr:not(.row-1):nth-child(odd):hover > :is(td, th) {
+  background: #f2f2f2 !important;
+}
+body.page-id-1609 #wrapper #main .pricetablebox > .col-inner > a.button:is([href$="/contact-us"], [href$="/contact-us/"]):not(.disabled):not([aria-disabled="true"]) {
+  width: 220px !important;
+  max-width: 100% !important;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+  border-color: #607b6d !important;
+  background-color: #607b6d !important;
+  color: #ffffff !important;
+}
+body.page-id-1609 #wrapper #main .pricetablebox > .col-inner > a.button:is([href$="/contact-us"], [href$="/contact-us/"]):not(.disabled):not([aria-disabled="true"]):is(:hover, :focus-visible) {
+  border-color: #4b6658 !important;
+  background-color: #4b6658 !important;
+  color: #ffffff !important;
+}
+
+/* FAQ and Understanding sections on matching treatment pages. */
+body.page:is(.parent-pageid-576, .essen-treatment-scope) #main section.faq-section,
+body.page:is(.parent-pageid-576, .essen-treatment-scope) #main section.faq-section > .section-bg,
+body.page:is(.parent-pageid-576, .essen-treatment-scope) #main section.faq-section > .section-bg > .section-bg-overlay {
+  background-color: #ebe3db !important;
+}
+body.page:is(.parent-pageid-576, .essen-treatment-scope) #main section.essen-understanding,
+body.page:is(.parent-pageid-576, .essen-treatment-scope) #main section.essen-understanding > .section-bg,
+body.page:is(.parent-pageid-576, .essen-treatment-scope) #main section.essen-understanding > .section-bg > .section-bg-overlay {
+  background-color: #f6f6f6 !important;
+}
+
+/* Home: use the existing WordPress hero image and its natural ratio.
+   These rules activate only after its dimensions are available. */
+body.home.essen-hero-ready #wrapper #main .luxury-hero {
+  display: block !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  background: #faf7f2;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero::before {
+  content: none !important;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero-frame {
+  display: none !important;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero-grid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  width: 100%;
+  padding: 0;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero-copy {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px clamp(20px, 5vw, 50px) 32px;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero-copy h1 {
+  font-size: clamp(32px, 7vw, 50px) !important;
+  line-height: 1.08;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero .hero-actions {
+  flex-wrap: wrap;
+  gap: 16px 24px;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero-visual {
+  position: relative !important;
+  inset: auto !important;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  min-height: 0 !important;
+  pointer-events: auto;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero-photo {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: var(--essen-hero-ratio) !important;
+  border-radius: 0 !important;
+  background-position: center center !important;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important;
+  box-shadow: none !important;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero-photo::before,
+body.home.essen-hero-ready #wrapper #main .luxury-hero-photo::after {
+  content: none !important;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero-card {
+  position: static !important;
+  inset: auto !important;
+  width: min(330px, calc(100% - 40px));
+  margin: 16px auto 24px;
+}
+body.home.essen-hero-ready #wrapper #main .luxury-hero .hero-scroll {
+  position: static !important;
+  display: flex;
+  width: max-content;
+  max-width: 100%;
+  margin: 0 auto !important;
+  padding: 0 0 24px !important;
+  transform: none !important;
+  background: transparent !important;
+}
+@media (min-width: 1501px) {
+  body.home.essen-hero-ready #wrapper #main .luxury-hero-grid {
+    grid-template-columns: minmax(0, 36fr) minmax(0, 64fr);
+    align-items: center;
+  }
+  body.home.essen-hero-ready #wrapper #main .luxury-hero-copy {
+    max-width: none;
+    margin: 0;
+    padding: 48px clamp(32px, 3vw, 60px);
+  }
+  body.home.essen-hero-ready #wrapper #main .luxury-hero-copy h1 {
+    font-size: clamp(44px, 3.15vw, 60px) !important;
+    line-height: 1.05;
+  }
+  body.home.essen-hero-ready #wrapper #main .luxury-hero-copy .hero-lead {
+    max-width: none;
+  }
+}
+
+/* White map section only; main footer remains unchanged. */
+body #footer section.section:has(.google-map-ics),
+body #footer section.section:has(.google-map-ics) > .section-bg,
+body #footer section.section:has(.google-map-ics) > .section-bg > .section-bg-overlay {
+  background-color: #ffffff !important;
+}
+/* END 03 Nov updates */
